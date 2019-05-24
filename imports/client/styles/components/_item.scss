@@ -1,0 +1,39 @@
+.item {
+    background: #ffffff;
+    border: 1px solid #8e8e8e;
+    // margin-bottom: space under a box
+    margin-bottom: 1.3rem;
+    // padding: space inside
+    padding: 1.3rem;
+
+    /* p {
+        color: peachpuff; // will affect other elements also
+    }*/
+}
+
+// multiple "_" doesn't matter
+.item__message {
+    color: #bd9b9f;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+}
+
+// modifier
+.item--position-1 {
+    background: $light_green;
+    border-color: $green_alt;
+}
+
+.item--position-2 {
+    background:$light_red;
+    border-color: $red_alt;
+}
+
+.item--position-3 {
+    background: $light_yellow;
+    border-color: $yellow_alt;
+}
+
+// BEM: block, element, modifier. it's jsut naming pattern

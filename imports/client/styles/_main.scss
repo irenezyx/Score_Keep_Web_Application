@@ -1,0 +1,51 @@
+/* CSS declarations go here */
+
+// variables
+$light_green: #e4ede0;
+$green_alt: darken($light_green, 15%);
+
+$light_blue: #dfe7ed;
+$blue_alt: darken($light_blue, 15%);
+
+$light_red: #eddfdf;
+$red_alt: darken($light_red, 15%);
+
+$light_yellow: #f8f7dc;
+$yellow_alt: darken($light_yellow, 15%);
+
+/* space */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* def rem's "root" */
+html {
+    font-size: 62.5%;
+}
+
+/* has back-up font */
+body {
+    color: #474444;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #fafaf2f2;
+    font-size: 1.6rem;
+}
+
+input, button, select {
+    font-size: 1.3rem;
+}
+
+/* CSS class */
+.h1 {
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+
+/* order of import is important */
+@import './components/title-bar';
+@import './components/wrapper';
+@import './components/item';
+@import './components/button';
+@import './components/form';
+@import './components/player';
