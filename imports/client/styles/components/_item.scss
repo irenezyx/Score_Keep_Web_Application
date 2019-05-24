@@ -11,6 +11,8 @@
     }*/
 }
 
+// BEM: block, element, modifier. it's jsut naming pattern
+
 // multiple "_" doesn't matter
 .item__message {
     color: #bd9b9f;
@@ -35,5 +37,3 @@
     background: $light_yellow;
     border-color: $yellow_alt;
 }
-
-// BEM: block, element, modifier. it's jsut naming pattern
